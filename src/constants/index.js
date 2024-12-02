@@ -21,38 +21,59 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
+export const socialLinks = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/mohd-asad-shoyeb-983a08213', // Replace with your LinkedIn profile link
+    icon: '/assets/linkedin.svg', // Add LinkedIn icon to the `assets` folder
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+    name: 'GitHub',
+    href: 'https://github.com/asadsaves', // Replace with your GitHub profile link
+    icon: '/assets/github.svg', // Add GitHub icon to the `assets` folder
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'LeetCode',
+    href: 'https://leetcode.com/u/asadshoyeb/', // Replace with your LeetCode profile link
+    icon: '/assets/leetcode.svg', // Add LeetCode icon to the `assets` folder
+  },
+];
+
+export const clientReviews = [
+  {
+    id: 1,
+    name: 'Mohammad Zeeshan Moeed',
+    position: 'Senior MEP Quantity Surveyor/Senior Cost Manager',
+    img: 'assets/review4.png',
+    review:
+      'Asad demonstrated a strong aptitude for problem-solving and his work ethic is commendable. His approach to learning and mastering new technologies is impressive for a prefinal-year CSE student.',
+  },
+  {
+    id: 2,
+    name: 'Pratibha Singh',
+    position: 'Business HR at Tata Motors Limited',
+    img: 'assets/review2.png',
+    review:
+      'Asad’s technical expertise and dedication during his internship at Tata Motors were remarkable, delivering impressive results on advanced projects.',
+  },
+  {
+    id: 3,
+    name: 'Mohd Saquib Siraj',
+    position: 'Senior Software Engineer at Qualcomm ',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I was impressed with Asad’s problem-solving skills and his understanding of embedded systems, C, and Java. As a third-year CS student, his dedication and technical potential are evident.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Prof. (Dr.) Wajahat Rizvi',
+    position: 'Professor CSE Amity University Lucknow Campus',
+    img: 'assets/review1.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Asad’s expertise and dedication were truly impressive. He delivered exceptional results for our project, showcasing a strong understanding of complex concepts and an ability to apply them effectively. His commitment to excellence, combined with his ability to work collaboratively, makes him a standout student in the field of computer science.',
   },
 ];
 
@@ -62,7 +83,7 @@ export const myProjects = [
     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    href: 'https://github.com/asadsaves/ai-podcast-platform',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -99,7 +120,7 @@ export const myProjects = [
     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
     subdesc:
       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    href: 'https://github.com/asadsaves/collaborative-editor',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -136,7 +157,7 @@ export const myProjects = [
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: 'https://github.com/asadsaves/healthcare',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -175,7 +196,7 @@ export const myProjects = [
     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
     subdesc:
       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    href: 'https://github.com/asadsaves/banking-platform',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -212,7 +233,7 @@ export const myProjects = [
     desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
     subdesc:
       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    href: 'https://github.com/asadsaves/ai-saas-app',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -260,29 +281,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Incedo Inc.',
+    pos: 'Software Development Intern',
+    duration: '2024 - current',
+    title: "As a Software Development Intern in the fintech sector, I contributed to optimizing backend systems using Java and Python. I enhanced APIs for seamless data integration and improved the performance of financial applications. My work focused on building scalable, secure systems for managing large volumes of data. I gained hands-on experience in fintech application development and data processing.",
+    icon: '/assets/incedo.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Tata Motors',
+    pos: 'Data Analysis Intern',
+    duration: 'Jun 2024 - Aug 2024',
+    title: "As a Data Analysis Intern, I worked on improving workplace safety through computer vision and machine learning. I developed models for drowsiness detection and automated license plate recognition, enhancing operational efficiency and security. This experience sharpened my skills in data analysis and real-time problem-solving. I contributed to implementing scalable solutions for the company’s industrial operations.",
+    icon: '/assets/tatamo.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Alias Tech Club',
+    pos: 'Technical Lead',
+    duration: '2023 - present',
+    title: "In my role as Technical Leader at Alias, I led projects and workshops to foster collaboration and innovation. I mentored peers, organized coding events, and managed technical initiatives within the club. This role honed my leadership skills and ability to guide technical teams. I played a key part in promoting technical growth within the college community.",
+    icon: '/assets/alias.svg',
     animation: 'salute',
   },
 ];
